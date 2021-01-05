@@ -1,0 +1,47 @@
+@blue:#0270ED;
+
+.wh(@width,@height){
+    width:@width;
+    height:@height;
+}
+.whlt(@width,@height){
+    width:@width;
+    height:@height;
+    line-height:@height;
+    text-align:center;
+}
+.sc(@size,@color){
+    font-size:@size;
+    color:@color;
+}
+
+.cl{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.ct{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.center{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.fj(@type:space-between){
+   display:flex;
+   justify-content:@type;
+}
+
+.bis(@url){
+    background-image:url(@url);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
