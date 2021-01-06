@@ -37,6 +37,8 @@ module.exports = {
     // (https://github.com/webpack/css-loader#sourcemaps)
     // In our experience, they generally work as expected,
     // just be aware of this issue when enabling this option.
+    /*这个选项默认是false*/
+    /*猜测应该是生成css的map文件*/
     cssSourceMap: false
   }
 }

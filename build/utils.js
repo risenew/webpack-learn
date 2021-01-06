@@ -40,6 +40,7 @@ exports.cssLoaders = function (options) {
     if (options.extract) {
       return ExtractTextPlugin.extract({
         use: loaders,
+        /*fallback 这里表示不提取的时候，使用什么样的配置来处理css*/
         fallback: 'vue-style-loader'
       })
     } else {
